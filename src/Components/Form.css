@@ -1,0 +1,173 @@
+
+#container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+    
+    min-width: 30%;
+    min-height: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-family:serif;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  .password{
+    position: relative;
+    display: inline-block;
+  }
+  .icon {
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    transform: translateY(-50%); 
+    background-color: transparent;
+    color: black;
+}
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .icon:hover {
+    background-color:none;
+  }
+  
+  .icon-btn{
+    
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    
+  }
+  .icon-btn:hover{
+    background-color: transparent;
+  }
+
+  .link{
+    color: rgb(61, 113, 255);
+    text-decoration: none;
+    font-size: 15px;
+    
+  }
+
+
+  /* for password reset page */
+  .forgot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot-form-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.forgot-btn-get-otp {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.forgot-btn-get-otp:hover {
+    background-color: #0056b3;
+}
+ 
+
+/* OTPSubmitPage */
+
+.otp-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.otp-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.otp-submit-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.otp-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.home-button{
+  background-color:transparent !important;
+  color: black;
+}
+.loader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
